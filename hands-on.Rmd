@@ -16,6 +16,7 @@ output:
     css: style.css
 ---
 
+
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE,
                       message = FALSE,
@@ -30,9 +31,7 @@ knitr::include_graphics("image/avo.gif")
 
 # Studi Kasus {.tabset}
 
-Para millenials di US sangat menyukai avocado toast[^1]. Dikarenakan sangat suka dengan avocado, mereka rela membeli avocado dengan harga yang sangat beragam demi memenuhi kebutuhan mereka dan bahkan belum bisa membeli rumah sendiri.
-
-Jika kita berperan sebagai konsumen yang ingin membeli avocado, dimana kita harus membeli avocado dengan **harga ekonomis dan kualitas baik**?
+Para millenials di US sangat menyukai avocado toast[^1]. Dikarenakan sangat suka dengan avocado, mereka rela membeli avocado dengan harga yang sangat beragam. Jika kita berperan sebagai konsumen yang ingin membeli avocado, dimana kita harus membeli avocado dengan **harga ekonomis dan kualitas baik**?
 
 ```{r}
 # read data avo
