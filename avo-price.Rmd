@@ -1,14 +1,17 @@
 ---
-title: "'Avocado Price' Analysis"
+title: '''Avocado Price'' Analysis'
 author: "Team Algoritma"
 date: "`r format(Sys.Date(), '%B %d, %Y')`"
-output: 
+output:
+  word_document:
+    toc: yes
+    toc_depth: '2'
   html_document:
-    toc: true
+    toc: yes
     toc_depth: 2
     toc_float:
-      collapsed: false
-    number_sections: true
+      collapsed: no
+    number_sections: yes
     df_print: paged
     theme: united
     highlight: zenburn
